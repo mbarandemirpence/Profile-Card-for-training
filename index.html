@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profile Card</title>
 
-  <link rel="stylesheet" href="style.css">
+  <!-- ROBOTO FONT FAMILY -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- END ROBOTO FONT FAMILY -->
+
+  <!-- FONT AWESOME ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  
+  <!-- Comment -->
+
+  <div class="profile-card">
+
+    <div class="profile-card-image">
+      <img src="assets/img/woman-profile.png" alt="A photo of a woman" width="200" height="260">
+    </div>
+
+    <div class="profile-card-description">
+      <!-- birinci kısım -->
+      <div class="profile-card-title">
+        <span>Sophie Bennett</span>
+        <i class="fa-solid fa-circle-check fa-2x"></i>
+      </div>
+      <!-- ikinci kısım -->
+      <div class="profile-card-short-bio">
+        Product Designer who focuses on simplicity and usability.
+      </div>
+      <!-- üçüncü kısım -->
+      <div class="profile-card-stats">
+        <div class="profile-card-stat">
+          <i class="fa-solid fa-users"></i>
+          <span>312</span>
+        </div>
+        <div class="profile-card-stat">
+          <i class="fa-solid fa-list-check"></i>
+          <span>48</span>
+        </div>
+        <div class="profile-card-stat-action">
+          <button class="btn-card-action">Follow + </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
