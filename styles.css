@@ -1,16 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 body {
   font-family: 'ROBOTO', sans-serif;
   display: flex;
-  align-items: center; /* Vertical centering */
-  justify-content: center; /* Horizontal centering */
-  height: 100vh; /* Full viewport height */
+  align-items: center;
+  /* Vertical centering */
+  justify-content: center;
+  /* Horizontal centering */
+  height: 100vh;
+  /* Full viewport height */
   background-color: #e1e1e1;
 }
 
@@ -24,8 +27,7 @@ body {
   background-color: #fafafa;
 }
 
-.profile-card-image {
-}
+.profile-card-image {}
 
 .profile-card-image img {
   width: 100%;
@@ -51,7 +53,7 @@ body {
   font-weight: 600;
 }
 
-.profile-card-title i{
+.profile-card-title i {
   color: #3dd84f;
 }
 
@@ -83,16 +85,105 @@ body {
 }
 
 .profile-card-stat-action {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .profile-card-stat-action .btn-card-action {
-    width: 140px;
-    height: 50px;
-    border: none;
-    border-radius: 26px;
-    font-size: 20px;
-    font-weight: 600;
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 26px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* ikinci kısım */
+
+.profile-card-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 56px;
+  margin: 100px;
+  max-width: 360px;
+  background-color: #fafafa;
+  align-items: self-end
+}
+
+.profile-card-2-image {}
+
+.profile-card-2-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 46px;
+  object-fit: cover;
+ 
+}
+
+.profile-card-2-description {
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  align-self: start;
+}
+
+.profile-card-2-title {
+  margin-bottom: 20px;
+  display: inline;
+  align-items: center;
+
+}
+
+.profile-card-2-title span {
+  font-size: 24px;
+  display: inline;
+  font-weight: 600;
+  align-items: center;
+}
+
+.profile-card-2-title i {
+  color: #3dd84f;
+  margin: 20px
+}
+
+.profile-card-2-short-bio {
+  font-size: 20px;
+  color: #919191;
+  margin-top: 20px;
+  margin-bottom: 36px;
+}
+
+.profile-card-2-stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-card-2-stat {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 10px;
+  align-items: center;
+}
+
+.profile-card-2-stat span {
+  font-size: 18px;
+  line-height: 10px;
+  font-weight: 600;
+}
+
+.profile-card-2-stat-action {
+  flex: content;
+  display: flex;
+}
+
+.profile-card-2-stat-action .btn-card-action {
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 26px;
+  font-size: 20px;
+  font-weight: 600;
 }
