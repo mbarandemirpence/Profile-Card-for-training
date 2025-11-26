@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: 'ROBOTO', sans-serif;
   display: flex;
@@ -16,7 +15,6 @@ body {
   /* Full viewport height */
   background-color: #e1e1e1;
 }
-
 
 .profile-card {
   display: flex;
@@ -109,31 +107,27 @@ body {
   margin: 100px;
   max-width: 360px;
   background-color: #fafafa;
-  align-items: self-end
-}
-
-.profile-card-2-image {}
-
-.profile-card-2-image img {
-  width: 100%;
-  height: 100%;
-  border-radius: 46px;
-  object-fit: cover;
- 
+  background-image: url(assets/img/woman-profile.png);
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-end;
+  border: solid 8px #fff;
 }
 
 .profile-card-2-description {
   display: flex;
   flex-direction: column;
   padding: 14px;
-  align-self: start;
 }
 
 .profile-card-2-title {
   margin-bottom: 20px;
   display: inline;
   align-items: center;
-
+}
+.profile-card-2-title i{
+  color: #158322;
 }
 
 .profile-card-2-title span {
@@ -143,14 +137,10 @@ body {
   align-items: center;
 }
 
-.profile-card-2-title i {
-  color: #3dd84f;
-  margin: 20px
-}
-
 .profile-card-2-short-bio {
   font-size: 20px;
-  color: #919191;
+  color: #383737;
+  font-weight: 500;
   margin-top: 20px;
   margin-bottom: 36px;
 }
@@ -159,6 +149,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 20px;
 }
 
 .profile-card-2-stat {
@@ -166,6 +157,7 @@ body {
   flex-direction: row;
   flex: 0 0 10px;
   align-items: center;
+  gap: 10px;
 }
 
 .profile-card-2-stat span {
@@ -175,12 +167,13 @@ body {
 }
 
 .profile-card-2-stat-action {
-  flex: content;
   display: flex;
+  justify-content: flex-end;
+  flex: 1;
 }
 
 .profile-card-2-stat-action .btn-card-action {
-  width: 140px;
+  width: 130px;
   height: 50px;
   border: none;
   border-radius: 26px;
